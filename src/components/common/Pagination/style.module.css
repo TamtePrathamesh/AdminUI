@@ -1,0 +1,48 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.actionBtn {
+    cursor: pointer;
+    color: black;
+    width: 36px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #0492c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disableClick {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.contentOverflow {   
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+}
+
+.contentOverflow .active {
+    background-color: white;
+    border-color: #0492c2;
+    border: 1px solid #0492c2;
+    color: #0492c2;
+}
+
+.stepper {
+    cursor: pointer;
+    color: white;
+    width: 36px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    background-color: #0492c2;
+    border: 0;
+}

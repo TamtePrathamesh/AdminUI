@@ -1,0 +1,13 @@
+
+.adminContainer {
+    padding: 20px;
+    background-color: white;
+}
+
+.footerActions {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}

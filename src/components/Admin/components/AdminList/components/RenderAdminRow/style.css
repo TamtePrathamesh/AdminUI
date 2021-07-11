@@ -1,0 +1,15 @@
+
+.selectedRow {
+    background-color: #FAF6FA;
+}
+
+.rowEditAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+img {
+    cursor: pointer;
+}
